@@ -7,5 +7,13 @@ cadastrar.addEventListener('click' , ()=>{
     let titulo = Number(document.getElementById('titulo').value)
 
     
+    console.log(nome,idade,titulo)
+
+    const cadadao = new Eleitor()
+
+    cidadao.nome = nome
+    cidadao.idade = idade
+    cidadao.titulo = titulo
+
     
 })
